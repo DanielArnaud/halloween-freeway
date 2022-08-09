@@ -1,6 +1,6 @@
 function setup() {
     createCanvas(500 * 2.1, 400 * 2.1);
-    //stage1()
+    getAudioContext().resume()
     stage1Song.loop();
     stage1Song.setVolume(0.1);
 }
